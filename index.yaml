@@ -3,7 +3,7 @@ entries:
   application:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-31T13:46:59.7643777+01:00
+    created: 2019-01-31T14:36:32.7331471+01:00
     description: A Helm chart for Kubernetes
     digest: ef40092cc5cbf22a06ebd9d2e601c3c7b91bc033d877c7e50debf55fd5696da3
     name: application
@@ -12,7 +12,7 @@ entries:
     version: 0.0.1
   sp2-process1-cloud-connector:
   - apiVersion: v1
-    created: 2019-01-31T13:46:59.7643777+01:00
+    created: 2019-01-31T14:36:32.7341477+01:00
     description: A Helm chart for Kubernetes
     digest: 0fa099b5275202f43f544a148b080105084cbc0c353a77acfc71a608e2de8835
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
@@ -22,12 +22,12 @@ entries:
     version: 0.0.1
   sp2-process1-runtime-bundle:
   - apiVersion: v1
-    created: 2019-01-31T13:46:59.765377+01:00
+    created: 2019-01-31T14:36:32.7341477+01:00
     description: A Helm chart for Kubernetes
-    digest: 37dd9f56c72d79e04cbf7315b407abe7f69afb487652517055334844f1c2d905
+    digest: f754b667787ca1844c0755d312caedfaaf8120429572a7f5badd4f25360bdc0e
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
     name: sp2-process1-runtime-bundle
     urls:
     - https://jymbym.github.io/sp2-charts/sp2-process1-runtime-bundle-0.0.1.tgz
     version: 0.0.1
-generated: 2019-01-31T13:46:59.7603777+01:00
+generated: 2019-01-31T14:36:32.7311473+01:00
