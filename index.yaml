@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  activiti-base:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-02-04T15:34:29.7274032+01:00
+    description: Base activiti compontents without runtime bundle and cloud connector
+    digest: 691487abda5809dd658e79b6b4279e2d6812f8e95784108c9b3d160d03264d37
+    name: activiti-base
+    urls:
+    - https://jymbym.github.io/sp2-charts/activiti-base-0.0.1.tgz
+    version: 0.0.1
   application:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-02-04T15:21:51.8237302+01:00
+    created: 2019-02-04T15:34:29.7293947+01:00
     description: A Helm chart for Kubernetes
     digest: ef40092cc5cbf22a06ebd9d2e601c3c7b91bc033d877c7e50debf55fd5696da3
     name: application
@@ -12,7 +22,7 @@ entries:
     version: 0.0.1
   sp2-process1-cloud-connector:
   - apiVersion: v1
-    created: 2019-02-04T15:21:51.8247512+01:00
+    created: 2019-02-04T15:34:29.7303948+01:00
     description: A Helm chart for Kubernetes
     digest: b4de9784bf30d2d8e8b207dd2f2647f16819fe67ac326a608422bf64c07de8f5
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
@@ -21,7 +31,7 @@ entries:
     - https://jymbym.github.io/sp2-charts/sp2-process1-cloud-connector-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
-    created: 2019-02-04T15:21:51.8237302+01:00
+    created: 2019-02-04T15:34:29.7303948+01:00
     description: A Helm chart for Kubernetes
     digest: dfa6dbfd5a8004973269f779ff85b655c96975908dda1d001a3992bb7e42257c
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
@@ -31,7 +41,7 @@ entries:
     version: 0.0.1
   sp2-process1-runtime-bundle:
   - apiVersion: v1
-    created: 2019-02-04T15:21:51.8257315+01:00
+    created: 2019-02-04T15:34:29.732397+01:00
     description: A Helm chart for Kubernetes
     digest: 445006b2d56a8f8fe442dec2373ae45314b6758f73fb4bfa712a63574cbc6009
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
@@ -40,7 +50,7 @@ entries:
     - https://jymbym.github.io/sp2-charts/sp2-process1-runtime-bundle-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
-    created: 2019-02-04T15:21:51.8257315+01:00
+    created: 2019-02-04T15:34:29.7313942+01:00
     description: A Helm chart for Kubernetes
     digest: f754b667787ca1844c0755d312caedfaaf8120429572a7f5badd4f25360bdc0e
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-platform/master/images/java.png
@@ -48,4 +58,4 @@ entries:
     urls:
     - https://jymbym.github.io/sp2-charts/sp2-process1-runtime-bundle-0.0.1.tgz
     version: 0.0.1
-generated: 2019-02-04T15:21:51.8187335+01:00
+generated: 2019-02-04T15:34:29.7243943+01:00
