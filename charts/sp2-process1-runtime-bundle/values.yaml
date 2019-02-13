@@ -23,7 +23,7 @@ global:
 db:
   uri: ""
   name: activitipostgresql
-  deployPostgres: false
+  deployPostgres: true
   port: 5432
 
 activitipostgresql:
